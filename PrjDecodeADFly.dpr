@@ -1,3 +1,10 @@
+{
+** DECODE URL ADF.LY                                                 **
+** Projeto openSource desenvolvido por Daniel Fernandes              **
+** Desenvolvido em 05/10/2021                                        **
+}
+
+
 program PrjDecodeADFly;
 
 uses

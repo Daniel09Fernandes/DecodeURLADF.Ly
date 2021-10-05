@@ -79,7 +79,7 @@ end;
 procedure TForm1.lbOutputURLDblClick(Sender: TObject);
 begin
  if MessageDlg('Deseja abrir a URL no navegador? ',TMsgDlgType.mtConfirmation,mbYesNo,0) = mrYes then
-   ShellExecute(Handle, 'open', lbOutputURL.Caption, nil, nil, SW_SHOWMAXIMIZED);
+   ShellExecute(Handle, 'open', Pchar(lbOutputURL.Caption), nil, nil, SW_SHOWMAXIMIZED);
 end;
 
 end.
